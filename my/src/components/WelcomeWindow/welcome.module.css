@@ -1,0 +1,87 @@
+.welcomeWindow {
+    width: 128.1rem;
+    height: 63.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000003;
+    gap: 60px;
+}
+
+.light {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.HiText {
+    width: 425px;
+    height: 644px;
+    color: #E84A4A;
+    font-size: 538px;
+    font-family: "Big Shoulders";
+    font-style: normal;
+    letter-spacing: -35px;
+    line-height: auto;
+    font-weight: 800;
+}
+
+.textBlock {
+    width: 45.875rem;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textBlock > span {
+    width: 28.125rem;
+    height: 1.563rem;
+    font-size: 30px;
+    letter-spacing: 7.5%;
+    line-height: auto;
+    font-family: 'iceland';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.textBlock > p {
+    width: 734px;
+    height: 60.5px;
+    font-family: 'iceland';
+    font-size: 20px;
+    text-transform: uppercase;
+    transform: translateY(20px);
+    letter-spacing: 7.5%;
+    line-height: 130%;
+}
+
+.textBlock > p:nth-child(3) {
+    transform: translateY(-20px);
+}
+
+.systemBtn {
+    width: 16.625rem;
+    height: 3.438rem;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 7.5%;
+    background: transparent;
+    border: 1px solid;
+    color: #E84A4A;
+    font-family: 'Big Shoulders';
+    letter-spacing: 1.3px;
+    line-height: auto;
+    font-weight: 743;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.systemBtn:hover {
+    background: #E84A4A;
+    color: #000000;
+    border: none;
+}

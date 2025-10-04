@@ -1,0 +1,32 @@
+.content {
+    width: 84rem;
+    height: 56rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    left: 0;
+}
+
+.contentTextSpan {
+    width: 623px;
+    text-transform: uppercase;
+    height: 34px;
+    font-family: 'iceland';
+    font-size: 20px;
+    transform: translateY(30px);
+    letter-spacing: 7.5%;
+}
+
+.contentTextP {
+    width: 623px;
+    height: 14px;
+    text-align: center;
+    font-family: 'iceland';
+    font-size: 15px;
+    opacity: 70%;
+    transform: translateY(30px);
+    text-transform: uppercase;
+    letter-spacing: 7.5%;
+}
